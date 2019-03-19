@@ -3,6 +3,18 @@ body {
   background: #ee3c48;
   padding: 60px 20px; }
 
+
+  ._search {
+    margin-right: 5px;
+  }
+
+.event_header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
 .ml-calendar {
   background: #fff;
   color: #2d2e2f;

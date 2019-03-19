@@ -6,7 +6,7 @@ import 'semantic-ui-css/semantic.css'
 class EventCard extends Component{
     render(){
         return(
-        <Card>
+        <Card color="red" >
             <Card.Content>
                 <Image floated='right' size='mini' src={this.props.icon} />
                 <Card.Header>{this.props.name}</Card.Header>
