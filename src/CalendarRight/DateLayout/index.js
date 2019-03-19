@@ -17,7 +17,7 @@ class DateLayout extends Component{
                 <div class="calendar-day day-name">Sun</div>
             </section>
             <section class="calendar-row">
-                <DateItem date = {10} ecount = {0} mode="weekend"/>
+                <DateItem date = {10} ecount = {10} mode="weekend"/>
                 <div class="calendar-day active">
                 <span class="calendar-date">1</span>
                 <br/><span class="calendar-event">4</span>
