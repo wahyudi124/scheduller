@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import DateLayout from './DateLayout';
 import EventLayout from './EventLayout';
 
 class CalendarRight extends Component{

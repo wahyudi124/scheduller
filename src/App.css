@@ -3,9 +3,56 @@ body {
   background: #ee3c48;
   padding: 60px 20px; }
 
+  ._icon{
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  ._searchcontainer{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
 
   ._search {
-    margin-right: 5px;
+    display:block;
+    margin: 0 4px 0 auto;
+    width: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ee3c48;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+
+  ._evencalendar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+
+  .margin_pagin{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ;
+  }
+
+  ._search:focus{
+    width: 100%;
+  }
+
+  .filtermode{
+    display: flex;
   }
 
 .event_header{
