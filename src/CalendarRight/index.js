@@ -1,5 +1,7 @@
 import React,{Component} from 'react';
 import EventLayout from './EventLayout';
+import DateLayout from './DateLayout';
+import EvformLayout from './EvformLayout';
 
 class CalendarRight extends Component{
     render(){
@@ -13,5 +15,6 @@ class CalendarRight extends Component{
     }
 }
 
-
 export default CalendarRight;
+
+

@@ -1,0 +1,8 @@
+// export const GET_DATA_CALENDAR = 'GET_DATA_CALENDAR'
+// export const APPLY_EVENT = 'APPLY_EVENT'
+// export const DELETE_EVENT = 'DELETE_EVENT'
+// export const ADD_EVENT = 'ADD_EVENT'
+export const NEXT_CALENDAR = 'NEXT_CALENDAR'
+export const INITIAL_CALENDAR = 'INITIAL_CALENDAR'
+export const PREV_CALENDAR = 'PREV_CALENDAR'
+export const CHANGE_YEAR = 'CHANGE_YEAR'

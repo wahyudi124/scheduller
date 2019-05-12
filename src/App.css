@@ -33,6 +33,34 @@ body {
     transition: width 0.4s ease-in-out;
   }
 
+  .flexl{
+    display: inherit;
+  }
+
+  .acform{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .contents{
+    flex: 1;
+  }
+
+  .summitbt{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+  }
+
+  ._evcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
   ._evencalendar{
     display: flex;
     flex-direction: column;
@@ -53,6 +81,21 @@ body {
 
   .filtermode{
     display: flex;
+  }
+
+  .hdisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .eventrun{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    justify-content: flex-start;
   }
 
 .event_header{
